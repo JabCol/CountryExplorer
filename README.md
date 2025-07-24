@@ -1,12 +1,43 @@
-# React + Vite
+# 🌍 Country Explorer - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación desarrollada con **React** que consume una API pública de países y muestra la información en una **tabla interactiva**. El usuario puede **filtrar por nombre**, **ordenar por nombre o región**, y navegar por la información mediante **paginación**.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Consulta de API pública de países (`https://restcountries.com/v3.1/all?fields=name,cca2,flags,capital,region,population`)
+- 🔎 Filtro en tiempo real por nombre de país
+- 📊 Ordenamiento por nombre común y región
+- 📄 Paginación para navegar entre los resultados
+- CRUD de países
 
-## Expanding the ESLint configuration
+## 🧑‍💻 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **JavaScript (ES6+)**
+- **Fetch API**
+
+## 🛠️ Instalación y ejecución
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/JabCol/PruebaTecnica.git
+```
+
+2. Dirigete a la carpeta del proyecto:
+
+```bash
+cd PruebaTecnica
+```
+
+3. Instala las dependencias necesarias
+
+```bash
+npm install
+```
+
+4. Ejecuta el proyecto
+
+```bash
+npm run dev
+```
