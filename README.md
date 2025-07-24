@@ -1,6 +1,7 @@
 # 🌍 Country Explorer - React App
 
-Aplicación desarrollada con **React** que consume una API pública de países y muestra la información en una **tabla interactiva**. El usuario puede **filtrar por nombre**, **ordenar por nombre o región**, y navegar por la información mediante **paginación**.
+Aplicación web desarrollada con **React** como parte de una prueba técnica. Originalmente consistía en consumir una API pública de países y mostrarlos en una tabla interactiva con filtros, ordenamiento y paginación. Posteriormente, se amplió para incluir funcionalidades **CRUD (crear, editar, eliminar países)** a través de formularios modales.
+Se implementó **Context API** para compartir estado global entre componentes, separación de lógica con hooks personalizados y buenas prácticas de organización de carpetas.
 
 ## 🚀 Funcionalidades
 
@@ -21,13 +22,13 @@ Aplicación desarrollada con **React** que consume una API pública de países y
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/JabCol/PruebaTecnica.git
+git clone git@github.com:JabCol/CountryExplorer.git
 ```
 
 2. Dirigete a la carpeta del proyecto:
 
 ```bash
-cd PruebaTecnica
+cd CountryExplorer
 ```
 
 3. Instala las dependencias necesarias
