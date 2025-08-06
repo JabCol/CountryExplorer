@@ -13,7 +13,7 @@
 }
 
 .modal-content {
-  position: relative; /* 🔥 Importante: para que el botón se posicione respecto a este contenedor */
+  position: relative;
   background-color: white;
   padding: 2rem;
   border-radius: 8px;
