@@ -13,19 +13,24 @@
 }
 
 .modal-content {
+  position: relative; /* 🔥 Importante: para que el botón se posicione respecto a este contenedor */
   background-color: white;
   padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
   border-radius: 8px;
 }
 
 .close-button {
   position: absolute;
-  top: 18rem;
-  right: 53rem;
+  top: 1rem;
+  right: 1rem;
   background: transparent;
   border: none;
   cursor: pointer;
   color: #333;
+  font-size: 1.5rem;
 }
 
 .close-button:hover {
